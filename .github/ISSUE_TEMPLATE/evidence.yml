@@ -1,0 +1,23 @@
+name: 资料、案例与反例
+description: 提交可核验的证据，帮助完善或纠正研究前提
+title: "[资料] "
+body:
+  - type: textarea
+    id: source
+    attributes:
+      label: 来源、日期与适用地区
+      description: 请提供原始链接，避免提交非公开个人信息。
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: 这份资料支持或反驳什么判断？
+      description: 区分来源中的事实与你自己的解释。
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: 局限与后续变化
+      description: 是否有更新法律、不同解释或相反证据？

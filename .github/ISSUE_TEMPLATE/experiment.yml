@@ -1,0 +1,25 @@
+name: 实验建议
+description: 提出一个可以比较、测量和复现的实验问题
+title: "[实验] "
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: 想研究什么问题？
+    validations:
+      required: true
+  - type: textarea
+    id: comparison
+    attributes:
+      label: 对照条件与指标
+      description: 改变什么、固定什么、测量什么？
+    validations:
+      required: true
+  - type: textarea
+    id: falsification
+    attributes:
+      label: 什么结果会使你改变判断？
+  - type: textarea
+    id: sources
+    attributes:
+      label: 可参考的数据、案例或论文
